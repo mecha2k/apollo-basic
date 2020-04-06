@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Apollo Client Basics
+
+With React app, npm install apollo-boost @apollo/react-hooks graphql
+
 ## Available Scripts
 
 In the project directory, you can run:
