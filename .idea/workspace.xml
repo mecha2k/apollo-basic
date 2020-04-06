@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df77dd8b-c9ef-4e50-b523-62985197b1e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,34 +58,56 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586214691858</updated>
-      <workItem from="1586214693248" duration="597000" />
+      <workItem from="1586214693248" duration="1778000" />
     </task>
+    <task id="LOCAL-00001" summary="1st commit">
+      <created>1586215368211</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586215368211</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="1st commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586214940432">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586214940432" />
-    <state width="1500" height="181" key="GridCell.Tab.0.bottom" timestamp="1586215295647">
+    <state x="386" y="6" key="CommitChangelistDialog2" timestamp="1586215367752">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586215295647" />
-    <state width="1500" height="181" key="GridCell.Tab.0.center" timestamp="1586215295646">
+    <state x="386" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586215367752" />
+    <state x="637" y="305" key="Github.ShareDialog" timestamp="1586215387137">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586215295646" />
-    <state width="1500" height="181" key="GridCell.Tab.0.left" timestamp="1586215295646">
+    <state x="637" y="305" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1586215387137" />
+    <state width="1500" height="181" key="GridCell.Tab.0.bottom" timestamp="1586215845762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586215295646" />
-    <state width="1500" height="181" key="GridCell.Tab.0.right" timestamp="1586215295647">
+    <state width="1500" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586215845762" />
+    <state width="1500" height="181" key="GridCell.Tab.0.center" timestamp="1586215845762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586215295647" />
+    <state width="1500" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586215845762" />
+    <state width="1500" height="181" key="GridCell.Tab.0.left" timestamp="1586215845762">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1500" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586215845762" />
+    <state width="1500" height="181" key="GridCell.Tab.0.right" timestamp="1586215845762">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1500" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586215845762" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1586215119593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
