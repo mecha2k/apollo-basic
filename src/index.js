@@ -6,18 +6,6 @@ import { ApolloProvider, useQuery } from "@apollo/react-hooks";
 
 const client = new ApolloClient({ uri: "https://48p1r2roz4.sse.codesandbox.io" });
 
-client
-  .query({
-    query: gql`
-      {
-        rates(currency: "USD") {
-          currency
-        }
-      }
-    `,
-  })
-  .then((result) => console.log(result));
-
 const EXCHANGE_RATES = gql`
   {
     rates(currency: "USD") {
@@ -27,7 +15,7 @@ const EXCHANGE_RATES = gql`
   }
 `;
 
-function exchangeRates() {
+function ExchangeRates() {
   const { loading, error, data } = useQuery(EXCHANGE_RATES);
 
   if (loading) return <p>Loading...🚀</p>;
@@ -46,6 +34,7 @@ const App = () => (
   <ApolloProvider client={client}>
     <div>
       <h6>My first Apollo application...</h6>
+      <ExchangeRates />
     </div>
   </ApolloProvider>
 );
