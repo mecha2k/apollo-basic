@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df77dd8b-c9ef-4e50-b523-62985197b1e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/index-exchangerate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,14 +29,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\mecha2k\AppData\Roaming\npm\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mecha2k\WebstormProjects\apollo-basic\src" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -58,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586214691858</updated>
       <workItem from="1586214693248" duration="2437000" />
-      <workItem from="1586219827096" duration="83000" />
+      <workItem from="1586219827096" duration="3599000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1586215368211</created>
@@ -81,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586216749667</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1st commit">
+      <created>1586219959957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586219959957</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,37 +115,41 @@
     <option name="LAST_COMMIT_MESSAGE" value="1st commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#ESLint" timestamp="1586222011604">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#ESLint/0.0.1536.824@0.0.1536.824" timestamp="1586222011604" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586214940432">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586214940432" />
-    <state x="386" y="6" key="CommitChangelistDialog2" timestamp="1586216749280">
+    <state x="386" y="6" key="CommitChangelistDialog2" timestamp="1586219959573">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="386" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586216749280" />
+    <state x="386" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586219959573" />
     <state x="637" y="305" key="Github.ShareDialog" timestamp="1586215387137">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="637" y="305" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1586215387137" />
-    <state width="1500" height="181" key="GridCell.Tab.0.bottom" timestamp="1586216836910">
+    <state width="750" height="181" key="GridCell.Tab.0.bottom" timestamp="1586221186458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586216836910" />
-    <state width="1500" height="181" key="GridCell.Tab.0.center" timestamp="1586216836909">
+    <state width="750" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586221186458" />
+    <state width="750" height="181" key="GridCell.Tab.0.center" timestamp="1586221186458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586216836909" />
-    <state width="1500" height="181" key="GridCell.Tab.0.left" timestamp="1586216836909">
+    <state width="750" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586221186458" />
+    <state width="750" height="181" key="GridCell.Tab.0.left" timestamp="1586221186458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586216836909" />
-    <state width="1500" height="181" key="GridCell.Tab.0.right" timestamp="1586216836910">
+    <state width="750" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586221186458" />
+    <state width="750" height="181" key="GridCell.Tab.0.right" timestamp="1586221186458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586216836910" />
-    <state x="277" y="54" key="SettingsEditor" timestamp="1586215119593">
+    <state width="750" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586221186458" />
+    <state x="277" y="54" key="SettingsEditor" timestamp="1586221770156">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586215119593" />
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586221770156" />
   </component>
 </project>
