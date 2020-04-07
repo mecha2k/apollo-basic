@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df77dd8b-c9ef-4e50-b523-62985197b1e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586214691858</updated>
       <workItem from="1586214693248" duration="2437000" />
+      <workItem from="1586219827096" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1586215368211</created>

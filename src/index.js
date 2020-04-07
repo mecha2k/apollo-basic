@@ -30,13 +30,15 @@ function ExchangeRates() {
   ));
 }
 
-const App = () => (
-  <ApolloProvider client={client}>
-    <div>
-      <h3>My first Apollo application...</h3>
-      <ExchangeRates />
-    </div>
-  </ApolloProvider>
-);
+function App() {
+  return (
+    <ApolloProvider client={client}>
+      <div>
+        <h3>My first Apollo application...</h3>
+        <ExchangeRates />
+      </div>
+    </ApolloProvider>
+  );
+}
 
 ReactDOM.render(<App />, document.getElementById("root"));
