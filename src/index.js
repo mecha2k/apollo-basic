@@ -6,7 +6,7 @@ import { ApolloProvider, useQuery, useMutation } from "@apollo/react-hooks";
 import gql from "graphql-tag";
 
 const client = new ApolloClient({
-  uri: "https://48p1r2roz4.sse.codesandbox.io",
+  uri: "https://ojo6385vn6.sse.codesandbox.io",
 });
 
 const GET_DOGS = gql`
@@ -18,9 +18,9 @@ const GET_DOGS = gql`
   }
 `;
 
-const GET_DOG_PHOTO = gql`    
+const GET_DOG_PHOTO = gql`
   query Dog($breed: String!) {
-    dog(breed: %breed) {
+    dog(breed: $breed) {
       id
       displayImage
     }
@@ -40,7 +40,7 @@ function Dogs({ onDogSelected }) {
   const { loading, error, data } = useQuery(GET_DOGS);
 
   if (loading) return "Loading...🚀";
-  if (error) return `Error! ${error.message}`;
+  if (error) return `Error(Dogs)! ${error.message}`;
 
   return (
     <select name="dog" onChange={onDogSelected}>
@@ -64,7 +64,7 @@ function DogPhoto({ breed }) {
 
   if (networkStatus === 4) return "Refetching!";
   if (loading) return "Loading...🚀";
-  if (error) return `Error! ${error}`;
+  if (error) return `Error(Photo)! ${error}`;
 
   return (
     <div>
@@ -99,11 +99,21 @@ function AddTodo() {
 }
 
 class App extends React.Component {
+  state = { selectedDog: null };
+
+  onDogSelected = ({ target }) => {
+    this.setState(() => ({ selectedDog: target.value }));
+  };
+
   render() {
     return (
-      <div>
-        <Dogs />
-      </div>
+      <ApolloProvider client={client}>
+        <div>
+          <h2>Building Query components 🚀</h2>
+          {/*{this.state.selectedDog && <DogPhoto breed={this.state.selectedDog} />}*/}
+          <Dogs onDogSelected={this.onDogSelected} />
+        </div>
+      </ApolloProvider>
     );
   }
 }
