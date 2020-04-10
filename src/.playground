@@ -1,0 +1,64 @@
+query GetDogs {
+  dogs {
+    id
+    breed
+  }
+}
+
+query GetLaunches {
+  launches(pageSize: 5, after: "1565131920") {
+    cursor
+    hasMore
+    launches {
+      id
+      mission {
+        name
+        missionPatch(size: LARGE)
+      }
+      rocket {
+        id
+        name
+        type
+      }
+      isBooked
+    }
+  }
+}
+
+query GetLaunch {
+  launch(id: 10) {
+    id
+    site
+    mission {
+      name
+      missionPatch(size: LARGE)
+    }
+    rocket {
+      id
+      name
+      type
+    }
+    isBooked
+  }
+}
+
+query GetMe {
+  me {
+    id
+    email
+  }
+}
+
+mutation LoginUser {
+  login(email: "daisy@apollographql.com")
+}
+
+mutation BookTrips {
+  bookTrips(launchIds: [10, 67, 68, 69]) {
+    success
+    message
+    launches {
+      id
+    }
+  }
+}
