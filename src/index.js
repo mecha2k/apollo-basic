@@ -1,13 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import ApolloClient from "apollo-boost";
-// import { gql } from "apollo-boost";
 import { ApolloProvider, useQuery, useMutation } from "@apollo/react-hooks";
 import gql from "graphql-tag";
 
-const client = new ApolloClient({
-  uri: "https://ojo6385vn6.sse.codesandbox.io",
-});
+const client = new ApolloClient({ uri: "http://localhost:4000/" });
 
 const GET_DOGS = gql`
   query {
@@ -44,7 +41,7 @@ function Dogs({ onDogSelected }) {
 
   return (
     <select name="dog" onChange={onDogSelected}>
-      {data["dogs"].map(function (dog) {
+      {data["dogs"].map(function(dog) {
         return (
           <option key={dog.id} value={dog.breed}>
             {dog.breed}
@@ -59,7 +56,7 @@ function DogPhoto({ breed }) {
   const { loading, error, data, refetch, networkStatus } = useQuery(GET_DOG_PHOTO, {
     variables: { breed },
     skip: !breed,
-    notifyOnNetworkStatusChange: true,
+    notifyOnNetworkStatusChange: true
   });
 
   if (networkStatus === 4) return "Refetching!";
@@ -81,14 +78,14 @@ function AddTodo() {
   return (
     <div>
       <form
-        onSubmit={(event) => {
+        onSubmit={event => {
           event.preventDefault();
           addTodo({ variables: { type: input.value } });
           input.value = "";
         }}
       >
         <input
-          ref={(node) => {
+          ref={node => {
             input = node;
           }}
         />
@@ -110,7 +107,7 @@ class App extends React.Component {
       <ApolloProvider client={client}>
         <div>
           <h2>Building Query components 🚀</h2>
-          {/*{this.state.selectedDog && <DogPhoto breed={this.state.selectedDog} />}*/}
+          {this.state.selectedDog && <DogPhoto breed={this.state.selectedDog} />}
           <Dogs onDogSelected={this.onDogSelected} />
         </div>
       </ApolloProvider>
