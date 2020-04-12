@@ -140,7 +140,7 @@ function Todos() {
   const { loading, error, data } = useQuery(GET_TODOS);
   const [updateTodo] = useMutation(UPDATE_TODO);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <p>Loading...🚀</p>;
   if (error) return <p>Error :(</p>;
 
   return data.todos.map(({ id, type }) => {
