@@ -1,13 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import ApolloClient from "apollo-boost";
-// import { gql } from "apollo-boost";
 import { ApolloProvider, useQuery, useMutation } from "@apollo/react-hooks";
 import gql from "graphql-tag";
 
-const client = new ApolloClient({
-  uri: "https://localhost:4000/"
-});
+const client = new ApolloClient({ uri: "http://localhost:4000/" });
 
 const GET_DOGS = gql`
   query {
@@ -110,7 +107,7 @@ class App extends React.Component {
       <ApolloProvider client={client}>
         <div>
           <h2>Building Query components 🚀</h2>
-          {/*{this.state.selectedDog && <DogPhoto breed={this.state.selectedDog} />}*/}
+          {this.state.selectedDog && <DogPhoto breed={this.state.selectedDog} />}
           <Dogs onDogSelected={this.onDogSelected} />
         </div>
       </ApolloProvider>
