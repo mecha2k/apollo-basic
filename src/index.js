@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./App.css";
 
 function FancyBorder(props) {
+  console.log(props.children);
   return <div className={"FancyBorder FancyBorder-" + props.color}>{props.children}</div>;
 }
 
@@ -15,15 +16,15 @@ function WelcomeDialog() {
   );
 }
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <h2>Building Query components 🚀</h2>
-        <WelcomeDialog />
-      </div>
-    );
-  }
-}
+// class App extends React.Component {
+//   render() {
+//     return (
+//       <div>
+//         <h2>Building Query components 🚀</h2>
+//         <WelcomeDialog />
+//       </div>
+//     );
+//   }
+// }
 
 ReactDOM.render(<WelcomeDialog />, document.getElementById("root"));
