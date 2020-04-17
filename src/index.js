@@ -4,7 +4,7 @@ import "./App.css";
 
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
-function App(props) {
+function App() {
   return (
     <Router>
       <div>
@@ -18,7 +18,7 @@ function App(props) {
 }
 
 function home() {
-  console.log(this.props);
+  // console.log(props);
   return <div>Home</div>;
 }
 
