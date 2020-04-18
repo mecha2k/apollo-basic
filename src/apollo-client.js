@@ -55,22 +55,22 @@ function AddTodo() {
       const { todos } = cache.readQuery({ query: GET_TODOS });
       cache.writeQuery({
         query: GET_TODOS,
-        data: { todos: todos.concat([addTodo]) },
+        data: { todos: todos.concat([addTodo]) }
       });
-    },
+    }
   });
 
   return (
     <div>
       <form
-        onSubmit={(e) => {
+        onSubmit={e => {
           e.preventDefault();
           addTodo({ variables: { type: input.value } });
           input.value = "";
         }}
       >
         <input
-          ref={(node) => {
+          ref={node => {
             input = node;
           }}
         />
@@ -88,7 +88,7 @@ function Dogs({ onDogSelected }) {
 
   return (
     <select name="dog" onChange={onDogSelected}>
-      {data["dogs"].map(function (dog) {
+      {data["dogs"].map(function(dog) {
         return (
           <option key={dog.id} value={dog.breed}>
             {dog.breed}
@@ -103,7 +103,7 @@ function DogPhoto({ breed }) {
   const { loading, error, data, refetch, networkStatus } = useQuery(GET_DOG_PHOTO, {
     variables: { breed },
     skip: !breed,
-    notifyOnNetworkStatusChange: true,
+    notifyOnNetworkStatusChange: true
   });
 
   if (networkStatus === 4) return "Refetching!";
@@ -150,7 +150,7 @@ function Todos() {
       <div key={id}>
         <p>{type}</p>
         <form
-          onSubmit={(e) => {
+          onSubmit={e => {
             e.preventDefault();
             updateTodo({ variables: { id, type: input.value } });
 
@@ -158,7 +158,7 @@ function Todos() {
           }}
         >
           <input
-            ref={(node) => {
+            ref={node => {
               input = node;
             }}
           />
