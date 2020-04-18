@@ -15,6 +15,9 @@ class App extends React.Component {
             <li>
               <Link to="/basic">Basic</Link>
             </li>
+            <li>
+              <Link to="/urlparams">URL Params</Link>
+            </li>
           </ul>
 
           <Switch>
@@ -23,6 +26,9 @@ class App extends React.Component {
             </Route>
             <Route path="/basic">
               <ReactEx.Basic />
+            </Route>
+            <Route path="/urlparams">
+              <ReactEx.UrlParams />
             </Route>
           </Switch>
         </div>
